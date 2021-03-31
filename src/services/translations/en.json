@@ -1,0 +1,73 @@
+{
+    "screen": {
+        "title": {
+            "login": "Login",
+            "registration": "Registration",
+            "profile": "Профиль",
+            "friends": "Friends",
+            "settings": "Settings",
+            "group": "Group",
+            "create_group": "Create Group",
+            "group_settings": "Group Settings",
+            "shop": "Shop",
+            "posts": "Posts",
+            "create_post": "Create Post"
+        }
+    },
+    "button": {
+        "title": {
+            "create": "Create",
+            "choose": "Choose",
+            "cancel": "Cancel",
+            "next": "Next",
+            "start": "Start",
+            "delete": "Delete",
+            "save": "Save",
+            "close": "Close"
+        }
+    },
+    "Account with such email already exists": "Account with such email already exists",
+    "Account with such login already exists": "Account with such login already exists",
+    "Password is required": "Password is required",
+    "User not found": "User not found",
+    "User not confirmed": "User not confirmed",
+    
+    "Favorites": "Favorites",
+    "Tracks": "Tracks",
+    "Albums": "Albums",
+    "Profile": "Profile",
+    "Live": "Live",
+    "List": "List",
+    "Page is under construction": "Page is under construction",
+    "Settings": "Settings",
+    "Language": "Language",
+    "Resources": "Resources",
+    "No track": "No track",
+    "Log in": "Log in",
+    "auth": {
+        "email_login": "Login",
+        "fb_login": "Войти с Facebook",
+        "first_name_label": "Имя",
+        "first_name_error": "Ошибка ввода имени",
+        "first_name_placeholder": "Введите имя",
+        "last_name_label": "Фамилия",
+        "last_name_error": "Ошибка ввода фамилии",
+        "email_error": "Ошибка ввода E-mail",
+        "email_error_have_in_db": "Этот E-mail уже используется",
+        "last_name_placeholder": "Введите фамилию",
+        "day_label": "День",
+        "bd_day_error": "Неправильный формат дня.",
+        "month_label": "Месяц",
+        "bd_month_error": "Неправильный формат месяца.",
+        "year_label": "Год (не обязательно)",
+        "bd_year_error": "Неправильный формат года.",
+        "save_error": "Невозможно сохранить профиль пользователя.",
+        "get_started": "Начать",
+        "email_label": "E-mail",
+        "email_placeholder": "Введите E-mail",
+        "verification_code_title": "Код подтверджения",
+        "verification_code_button": "Подтвердить",
+        "verification_code_send_again": "Если вы не получили код в течении {{countdown}} секунд - вы можете послать код еще раз",
+        "verification_code_send_again_button": "Отправить код еще раз"
+    }
+}

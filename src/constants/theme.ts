@@ -1,0 +1,148 @@
+import { colors } from "@constants";
+import { eTheme } from "@types";
+
+export const themeOptions = [
+  { value: colors.RED, label: eTheme.black_and_red },
+  { value: colors.PURPLE, label: eTheme.black_and_purple },
+  { value: colors.GOLD, label: eTheme.white_and_gold },
+]
+
+export const colorOptions = {
+  orange: {
+    $PRIMARY_COLOR_FAINT: "#FFF3E0",
+    $PRIMARY_COLOR_LIGHT: "#FFB74D",
+    $PRIMARY_COLOR: "#FF9800",
+    $PRIMARY_COLOR_BOLD: "#EF6C00",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  red: {
+    $PRIMARY_COLOR_FAINT: "#FFEBEE",
+    $PRIMARY_COLOR_LIGHT: "#E57373",
+    $PRIMARY_COLOR: "#F44336",
+    $PRIMARY_COLOR_BOLD: "#C62828",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  blue: {
+    $PRIMARY_COLOR_FAINT: "#E3F2FD",
+    $PRIMARY_COLOR_LIGHT: "#64B5F6",
+    $PRIMARY_COLOR: "#2196F3",
+    $PRIMARY_COLOR_BOLD: "#1565C0",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  cyan: {
+    $PRIMARY_COLOR_FAINT: "#E0F7FA",
+    $PRIMARY_COLOR_LIGHT: "#4DD0E1",
+    $PRIMARY_COLOR: "#00BCD4",
+    $PRIMARY_COLOR_BOLD: "#00838F",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  teal: {
+    $PRIMARY_COLOR_FAINT: "#E0F2F1",
+    $PRIMARY_COLOR_LIGHT: "#4DB6AC",
+    $PRIMARY_COLOR: "#009688",
+    $PRIMARY_COLOR_BOLD: "#00695C",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  gray: {
+    $PRIMARY_COLOR_FAINT: "#FAFAFA",
+    $PRIMARY_COLOR_LIGHT: "#E0E0E0",
+    $PRIMARY_COLOR: "#9E9E9E",
+    $PRIMARY_COLOR_BOLD: "#424242",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  purple: {
+    $PRIMARY_COLOR_FAINT: "#EDE7F6",
+    $PRIMARY_COLOR_LIGHT: "#9575CD",
+    $PRIMARY_COLOR: "#673AB7",
+    $PRIMARY_COLOR_BOLD: "#4527A0",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  },
+  green: {
+    $PRIMARY_COLOR_FAINT: "#E8F5E9",
+    $PRIMARY_COLOR_LIGHT: "#81C784",
+    $PRIMARY_COLOR: "#4CAF50",
+    $PRIMARY_COLOR_BOLD: "#2E7D32",
+    $PRIMARY_FOREGROUND_COLOR: "#ffffff"
+  }
+};
+
+export const base = {
+  FONT_SIZE_TINY: 8,
+  FONT_SIZE_SMALL: 12,
+  FONT_SIZE_MEDIUM: 14,
+  FONT_SIZE_LARGE: 18,
+  FONT_SIZE_EXTRA_LARGE: 24,
+  FONT_SIZE_MASSIVE: 34,
+
+  FONT_WEIGHT_LIGHT: "200",
+  FONT_WEIGHT_MEDIUM: "500",
+  FONT_WEIGHT_BOLD: "700",
+
+  PRIMARY_FONT_FAMILY: "AvertaDemo-Regular",
+  PRIMARY_FONT_FAMILY_BOLD: "AvertaDemo-ExtraBoldItalic",
+
+  SECONDARY_FONT_FAMILY: "Product-Sans-Regular",
+  SECONDARY_FONT_FAMILY_ITALIC: "Product-Sans-Italic"
+};
+
+export const blackAndRedTheme = {
+  $THEME: 'black_and_red',
+
+  $PRIMARY_COLOR: '#ff0000',
+  $PRIMARY_COLOR_LIGHT: 'ff6161',
+  $PRIMARY_COLOR_DARK: '#420000',
+
+  $PRIMARY_BACKGROUND_COLOR: "#000000",
+  $PRIMARY_BACKGROUND_COLOR_LIGHT: "#000000",
+
+  $SECONDARY_BACKGROUND_COLOR: "#000000",
+  $SECONDARY_BACKGROUND_COLOR_LIGHT: "#000000",
+
+  $PRIMARY_TEXT_COLOR: "#ffffff",
+  $PRIMARY_TEXT_COLOR_LIGHT: "#ffffff",
+  $PRIMARY_TEXT_COLOR_DARK: "#404040",
+
+  $PRIMARY_TEXT_BACKGROUND_COLOR: "#ff0000",
+  $SECONDARY_TEXT_BACKGROUND_COLOR: "#420000",
+};
+
+export const blackAndPurpleTheme = {
+  $THEME: 'black_and_purple',
+
+  $PRIMARY_COLOR: '#c700ba',
+  $PRIMARY_COLOR_LIGHT: 'e17dff',
+  $PRIMARY_COLOR_DARK: '#8300ab',
+
+  $PRIMARY_BACKGROUND_COLOR: "#000000",
+  $PRIMARY_BACKGROUND_COLOR_LIGHT: "#000000",
+
+  $SECONDARY_BACKGROUND_COLOR: "#000000",
+  $SECONDARY_BACKGROUND_COLOR_LIGHT: "#000000",
+
+  $PRIMARY_TEXT_COLOR: "#ffffff",
+  $PRIMARY_TEXT_COLOR_LIGHT: "#ffffff",
+  $PRIMARY_TEXT_COLOR_DARK: "#404040",
+
+  $PRIMARY_TEXT_BACKGROUND_COLOR: "#c700ba",
+  $SECONDARY_TEXT_BACKGROUND_COLOR: "#8300ab",
+};
+export const whiteAndGoldTheme = {
+  $THEME: 'white_and_gold',
+
+  $PRIMARY_COLOR: '#ffd700',
+  $PRIMARY_COLOR_LIGHT: '#ffe478',
+  $PRIMARY_COLOR_DARK: '#8c7000',
+
+  $PRIMARY_BACKGROUND_COLOR: "#000000",
+  $PRIMARY_BACKGROUND_COLOR_LIGHT: "#000000",
+
+  $SECONDARY_BACKGROUND_COLOR: "#ffffff",
+  $SECONDARY_BACKGROUND_COLOR_LIGHT: "#ffffff",
+
+  $PRIMARY_TEXT_COLOR: "#ffd700",
+  $PRIMARY_TEXT_COLOR_LIGHT: "#ffe478",
+  $PRIMARY_TEXT_COLOR_DARK: "#8c7000",
+
+  $PRIMARY_TEXT_BACKGROUND_COLOR: "#ffd700",
+  $SECONDARY_TEXT_BACKGROUND_COLOR: "#8c7000",
+};
